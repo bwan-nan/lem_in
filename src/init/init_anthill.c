@@ -6,7 +6,7 @@
 /*   By: bwan-nan <bwan-nan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 12:28:21 by bwan-nan          #+#    #+#             */
-/*   Updated: 2019/07/02 12:51:16 by pimichau         ###   ########.fr       */
+/*   Updated: 2019/07/08 11:55:36 by bwan-nan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ int				create_anthill(t_anthill *anthill, t_list *input)
 	init_anthill(anthill);
 	while (input && is_a_comment(((t_input *)input->content)->line))
 		input = input->next;
-	if (!init_ant_qty(((t_input *)input->content)->line, anthill))
+	if (!input || !init_ant_qty(((t_input *)input->content)->line, anthill))
 		return (0);
 	input = input->next;
 	while (input && !end_of_rooms(((t_input *)input->content)->line))
