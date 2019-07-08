@@ -58,7 +58,7 @@ What we do is:
  -> Else, the new solution is not better than the previous one, so we keep the previous one.
  
  ## Example
- ```./lem_in --paths maps/tricky2```
+ ```./lem_in --paths < maps/tricky2```
  
 ```
 Initialized 1 path:
