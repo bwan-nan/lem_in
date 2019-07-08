@@ -6,6 +6,11 @@ The goal is to make all ants go from Start to End-room with the minimum number o
 An anthill is composed of 'rooms' (or nodes in a graph) and each room is linked to other rooms by 'tunnels' (or edges).
 </br>**The trick is that a room (except for Start and End) can only welcome 1 ant at a time.**
 
+## Visual
+You can type ```./visual.sh [existing_map]``` or ```./visual.sh --flow-thousand``` (using the generator).</br>
+```./generator --help``` </br>
+![alt text](https://github.com/bwan-nan/lem_in/blob/master/small-map.gif)
+
 ## Input
 ```
 10          // Number of ants
@@ -84,8 +89,3 @@ L15-End L17-End L18-End L19-J L20-C
 L19-End L20-End
 ```
 </br>
-
-## Visual
-You can type ```./visual.sh [existing_map]``` or ```./visual.sh --flow-thousand``` (using the generator).</br>
-```./generator --help``` </br>
-![alt text](https://github.com/bwan-nan/lem_in/blob/master/small-map.gif)
