@@ -1,6 +1,6 @@
 # lem_in
 
-Lem_in is an algorithm project about graph traversal and max-flow optimization.</br></br>
+Lem_in is an algorithm project about graph traversal and flow optimization.</br></br>
 You start with a given number of ants, all inside a 'Start-room' of an anthill.</br>
 The goal is to make all ants go from Start to End-room with the minimum number of movements.</br>
 An anthill is composed of 'rooms' (or nodes in a graph) and each room is linked to other rooms by 'tunnels' (or edges).
