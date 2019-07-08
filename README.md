@@ -35,6 +35,7 @@ E-F
 ```
 
 ## Output
+```./lem_in --solution < [map_above]``` </br>
 L[ant]-[room]
 ```
 L1-B L2-C       //Round 1 : Ant number 1 goes to room B. Ant number 2 goes to room C.
