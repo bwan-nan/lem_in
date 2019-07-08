@@ -52,7 +52,7 @@ We modified Ford-Fulkerson and Edmonds-Karp max-flow algorithm to fit our proble
 We use a BFS (Breadth First Search) to search for the shortest path in the graph.
 What we do is:
 - As soon as we find the shortest path, we test the solution:</br>
- -> We want to see how many rounds it would take the ants to go from Start to End room using only this path.</br>
+ -> We want to see how many rounds the ants would take to go from Start to End room using only this path.</br>
 - Then we block this path in the graph and we look for the 2nd shortest path. If/ounce we found it, we test again the new solution:</br>
  -> If it takes less rounds to go from Start to End using 2 paths instead of 1, then this solution is better and we continue searching for 3 paths, 4 paths, etc...</br>
  -> Else, the new solution is not better than the previous one, so we keep the previous one.
